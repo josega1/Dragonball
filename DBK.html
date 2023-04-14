@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Dragonballketa</title>
+        <script src="./DBK.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" href="./styles.css">
+        </head>
+    <body>
+        <section id="seleccionar-luchador">
+            <h1 class="titulo">Dragonball keta 🐉 </h1>
+            <h2 class="subtitulos"> Elige tu luchador</h2>
+
+            <div class="tarjeta">
+                <label class="tarjeta-de-gokus" for="gokus">Gokus
+                    <img src="./Personajes/gok.png" alt="Gokus">
+                </label>
+                <input type="radio" name="luchador" id="gokus" />
+
+                <label class="tarjeta-de-vugetta" for="vugetta">Vugetta
+                    <img src="./Personajes/veg.png" alt="Vugetta">
+                </label>
+                <input type="radio" name="luchador" id="vugetta" />
+
+                <label class="tarjeta-de-friza" for="friza">Friza
+                    <img src="./Personajes/fri.png" alt="Friza">
+                </label>
+                <input type="radio" name="luchador" id="friza" />
+            </div>
+            
+            
+            <button id="boton-luchador">Continuar🤜</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h1 class="titulo">Dragonball keta 🐉 </h1>
+            <h2>Elige tu ataque</h2>
+            <div class="ataques">
+            <div class="ataques" id="ataque-gokus">
+                <button id="boton-hameha" class="boton-ataque">Hameha
+                    <img src="./Personajes/Kame.png" alt="Hameha">
+                </button>
+                <button id="boton-henkidama" class="boton-ataque">Henkidama
+                    <img src="./Personajes/genkidam.png" alt="Henkidama">
+                </button>
+                <button id="boton-kaioken" class="boton-ataque">Kaioken
+                    <img src="./Personajes/final_kam.png" alt="Kaioken">
+                </button>
+            </div>
+            <div class="ataques" id="ataque-vugetta">
+                <button id="boton-bigbang" class="boton-ataque">Bigbang
+                    <img src="./Personajes/pngwing.com.png" alt="Bigbang">
+                </button>
+                <button id="boton-final" class="boton-ataque">Final
+                    <img src="./Personajes/final_fl.png" alt="Final">
+                </button>
+                <button id="boton-galik" class="boton-ataque">Galik
+                    <img src="./Personajes/vegeta.png" alt="Galik">
+                </button>
+            </div>
+            <div class="ataques" id="ataque-friza">
+                <button id="boton-lazer" class="boton-ataque">Lazer
+                    <img src="./Personajes/pngegg.png" alt="Lazer">
+                </button>
+                <button id="boton-blaster" class="boton-ataque">Blaster
+                    <img src="./Personajes/drago.png" alt="Blaster">
+                </button>
+                <button id="boton-nova" class="boton-ataque">Nova
+                    <img src="./Personajes/esfera_d.png" alt="Nova">
+                </button>
+            </div>
+        </section>
+        <div class="mensajes">
+            <section id="mensajes">
+             <p id="resultado">Bendiciones Pa</p>   
+            </section>   
+        </div>
+
+        <section id="reiniciar">
+            <button id="boton-reiniciar"><img src="./Personajes/esfera.png" alt="esfera"></button>
+        </section>
+        
+        <div>
+            <div id="ataque-del-jugador"></div>
+            <div id="ataque-del-enemigo"></div>
+            <p class="mensaje">Tu Luchador <span id="luchador-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p class="mensaje">El Luchador enemigo <span id="luchador-enemigo"></span> tiene <span id="vidas-enemigo">3</span> vidas</p>
+        </div>
+        
+    </section>
+
+    </body>            
+</html>     

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Silkscreen:wght@400;700&display=swap');
+
+body {
+    font-family:'Silkscreen', cursive;
+    color:hsl(0, 69%, 47%);
+    background-image: url("./Personajes/placeq.jpg");
+    background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center; 
+}
+
+#seleccionar-luchador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.titulo {
+    font-family: 'Bungee Spice' , cursive;
+	font-size: 32px;
+	
+}
+
+.subtitulo {
+    color:hsl(0, 69%, 47%);
+    font-size: 20px;
+    
+}
+
+.tarjeta {
+    display: flex;
+    gap: 34px;
+    justify-content: center;
+}
+
+.tarjeta-de-gokus {
+    height: 124px;
+    width: 158px;
+    background: rgb(0, 0, 0, 30%);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    
+    box-shadow: 0px -4px 15px 15px rgb(238, 255, 0);
+}
+.tarjeta-de-dragonballketa img {
+    width: 84px;
+}
+.tarjeta-de-gokus img:hover {
+    transform: scale(1.5);
+}
+.tarjeta-de-gokus:hover {
+    cursor: pointer;
+}
+.tarjeta-de-vugetta {
+    height: 124px;
+    width: 158px;
+    background: rgb(0, 0, 0, 30%);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    
+    box-shadow: 0px -4px 15px 15px rgb(5, 11, 186);
+}
+.tarjeta-de-vugetta img {
+    width: 84px;
+}
+.tarjeta-de-vugetta img:hover {
+    transform: scale(1.5);
+}
+.tarjeta-de-vugetta:hover {
+    cursor: pointer;
+}
+.tarjeta-de-friza {
+    height: 124px;
+    width: 158px;
+    background: rgb(0, 0, 0, 30%);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    
+    box-shadow: 0px -4px 15px 15px rgb(138, 7, 153);
+}
+.tarjeta-de-friza img {
+    width: 84px;
+}
+.tarjeta-de-friza img:hover, #boton-reiniciar img:hover {
+    transform: scale(1.5);
+
+}
+.tarjeta-de-friza:hover {
+    cursor: pointer;
+}
+
+
+input {
+    display: none;
+}
+#boton-luchador {
+    color: black;
+    background-color: #ff3700;
+    width: 210px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    font-family:'Silkscreen', cursive;
+    background-position: center;
+
+}
+#boton-luchador:hover {
+    cursor: pointer;
+}
+
+#seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+.boton-ataque {
+    display: inline-flex;
+    height: 96px;
+    width: 150px;
+    background: rgb(0, 0, 0, 30%);
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Silkscreen', cursive;
+    box-shadow: 0px -4px 15px 15px rgb(255, 0, 0);
+}
+.boton-ataque:hover {
+    box-shadow: 0px -4px 15px 15px rgb(255, 217, 0);
+}
+
+.boton-ataque img {
+    display: flex;
+    width: 60px;
+}
+.boton-ataque:hover {
+    cursor: pointer;
+}
+.ataques {
+    display: flex;
+    gap: 100px;
+}
+#mensajes {
+    color: black;
+    background-color: #ff3700;
+    width: 210px;
+    height: 80px;
+    padding: 14px;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    font-family:'Silkscreen', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mensajes:hover {
+    cursor: pointer;
+}
+.mensaje{
+    color: white;
+}
+
+#reiniciar{
+    display: none;
+}
+.mensajes {
+    display: flex;
+    justify-content: center;
+}
+#boton-reiniciar {
+    background-color: transparent;
+    border: none;
+}
+#boton-reiniciar img {
+    width: 100px;
+    cursor: pointer;
+}
